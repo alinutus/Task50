@@ -12,7 +12,7 @@ namespace Task50
     {
         private IWebDriver Driver;
 
-        [SetUp]
+        [SetUp] 
         public void Setup()
         {
             Driver = new ChromeDriver();
